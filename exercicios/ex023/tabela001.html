@@ -10,11 +10,14 @@
         body{
             
             font-family: 'Bebas Neue', cursive;
-            background-image: url("..//ex022/imagens/wallpaper002.jpg");
+            background-image: url("https://lh3.googleusercontent.com/proxy/BO7KMJ61E4hSbxjQaZBU6Aacd9W6QxgtsntnzeiCACn8zYUb8-UeFAhDk5UFPGyI1k4GWu5OVK_vbfoE0pAeEA7YmgR1o6z5vsoSYSK-cUcxY4Lq8rbtvyFiDeB7ndXHl746aw");
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
             background-attachment: fixed;
+        }
+        header{
+            text-align: center;
         }
         h1{
             color: white;
@@ -28,6 +31,7 @@
             margin-top: 50px;
         }
         table{
+            height: 400px;
             color: black;
             box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.452);
             margin-top: 20px;
@@ -35,12 +39,9 @@
             width: 400px;
             background-color: white;
             border-collapse: collapse;
-            background-image: url("https://lh3.googleusercontent.com/proxy/BO7KMJ61E4hSbxjQaZBU6Aacd9W6QxgtsntnzeiCACn8zYUb8-UeFAhDk5UFPGyI1k4GWu5OVK_vbfoE0pAeEA7YmgR1o6z5vsoSYSK-cUcxY4Lq8rbtvyFiDeB7ndXHl746aw");
             background-size: cover;
         }
-        .table2{
-            background-image: url("https://www.minhatorcida.com.br/imagens/post/8317/sao-paulo.jpg");
-            background-position: center center;
+
         }
         .linha-2 {
             
@@ -49,62 +50,41 @@
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /*Alinhamento horizontal */
+            vertical-align: middle;
         }
-        }
-        .a4 {
-            background-image: url();
+
+        .numero{
+            
         }
     </style>
 </head>
 <body>
-    <h1>Minha primeira tabela</h1>
-    <section>
+    <header>
+        <h1>Minha primeira tabela</h1>
+    </header>
         <table>
-            <tr class="linha-1">
+            <tr>
                 <td>A1</td>
                 <td>B1</td>
                 <td>C1</td>
             </tr>
-            <tr class="linha-2">
+            <tr>
                 <td>A2</td>
                 <td>B2</td>
-                <td>C2</td>
+                <td class="numero">C2</td>
             </tr>
-            <tr class="linha-3">
+            <tr>
                 <td>A3</td>
                 <td>B3</td>
-                <td class="dado">C3</td>
+                <td class="numero">C3</td>
             </tr>
-            <tr class="linha-4">
+            <tr>
                 <td class="a4">A4</td>
                 <td>B4</td>
                 <td>C4</td>
             </tr>
         </table>
 
-    <section>
-        <table class="table2">
-            <tr class="linha-1">
-                <td>A1</td>
-                <td>B1</td>
-                <td>C1</td>
-            </tr>
-            <tr class="linha-2">
-                <td>A2</td>
-                <td>B2</td>
-                <td>C2</td>
-            </tr>
-            <tr class="linha-3">
-                <td>A3</td>
-                <td>B3</td>
-                <td class="dado">C3</td>
-                </tr>
-            <tr class="linha-4">
-                <td class="a4">A4</td>
-                <td>B4</td>
-                <td>C4</td>
-            </tr>
-        </table>    
-    </section>
 </body>
 </html>
