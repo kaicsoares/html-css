@@ -59,6 +59,9 @@ section {
     font-size: 4vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
 
 section.normal{
     background-color: white;
@@ -68,13 +71,24 @@ section.normal{
 section.imagem{
     background-color: rgb(46, 35, 35);
     color: white;
+    background-image: url("/desafios/d012/imagens/background001.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
     
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 0, 0.658);
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 0px black;
+}
+
+section#livro{
+    background-image: url("/desafios/d012/imagens/background002.jpg");
 }
 
 footer {
